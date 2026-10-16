@@ -9,16 +9,8 @@ namespace GestorFinanzasAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            
 
-            var conexion = builder.Configuration
-    .GetConnectionString("DefaultConnection");
-
-            Console.WriteLine("¿Se encontró la conexión?: "
-                + (conexion != null));
-
-            Console.WriteLine("¿Se está usando el secreto correcto?: "
-                + (conexion?.Contains("CAMBIAR_LOCALMENTE") == false
-                   && conexion?.Contains("TU_CONTRASEÑA_REAL") == false));
 
             // Add services to the container.
 
