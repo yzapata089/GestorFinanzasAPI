@@ -1,0 +1,13 @@
+﻿
+# Archivos de compilación
+bin/
+obj/
+
+# Configuración local de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Archivos locales de configuración y secretos
+secrets.json
+appsettings.Development.json

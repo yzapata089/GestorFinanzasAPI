@@ -1,0 +1,6 @@
+@GestorFinanzasAPI_HostAddress = http://localhost:5285
+
+GET {{GestorFinanzasAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
